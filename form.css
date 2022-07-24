@@ -1,0 +1,31 @@
+.parent {
+    border: 2px solid black;
+    width: 90%;
+    position: absolute;
+    top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+    padding: 1rem 1rem;
+  }
+  .child {
+    border: 2px solid gray;
+    display: inline-block;
+    padding: 3em 5em;
+    vertical-align: top;
+  }
+
+  .input {
+    width: 425px;
+  }
+
+  .subbut {
+    background-color: #800000;
+    border-radius: 3px;
+    font-size: 25px;;
+    color: white;
+    border: none;
+  }
+  h2 {
+    background-color: #800000;
+    color: white;
+  }
